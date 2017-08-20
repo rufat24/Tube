@@ -1,0 +1,130 @@
+body{
+  width:100%;
+	height:100%;
+	margin: 0px;
+}
+
+.videoimg{
+	border-radius: 5px;
+  border: 1.2px solid white !important;
+}
+
+.toppan{
+	width:100%;
+	height:10vh;
+  background-color: #e04747;
+	//margin-top: 1vh;
+}
+
+.mainscreen{
+	width:100%;
+	height:90vh;
+  background-color: #080808;
+	overflow: auto;
+}
+.logo{
+	font-family:    painter, Helvetica, sans-serif;
+  font-size:      8vh;
+  font-weight:    bold;
+	margin-left: 5vh;
+}
+.videopan{
+	margin: 20px;
+	float: left;
+}
+.videopan:hover .videoimg{
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(245,5,5,1);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(245,5,5,1);
+  box-shadow: 0px 0px 10px 5px rgba(245,5,5,1);
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+  cursor:hand;
+}
+.videopan:hover .videoname{
+  color: red;
+  cursor: pointer;
+  cursor:hand;
+}
+.videoname{
+	font-family:    charger;
+  font-size:      20px;
+  font-weight:    bold;
+	color: #fff;
+	text-align: center;
+}
+.videocap{
+	font-family:    charger;
+  font-size:      4vh;
+  font-weight:    bold;
+  background: white;
+  display: inline-block;
+  float:left;
+  display: inline;
+}
+
+.videoview{
+  font-family:    charger;
+  font-size:      5vh;
+  font-weight:    bold;
+  float:right;
+}
+
+
+.likes{
+  position:relative;
+  font-family:    charger;
+  font-size:      3vh;
+  font-weight:    bold;
+	color: green;
+  display: inline-block;
+}
+.dislikes{
+  font-family:    charger;
+  font-size:      3vh;
+  font-weight:    bold;
+	color: red;
+  background: #fff;
+  display: inline-block;
+}
+.impbar{
+  float: right;
+}
+.rightpart{
+  float:right;
+  display: inline-block;
+}
+video{
+  width: 60%    !important;
+  height: auto   !important;
+  border-radius: 5px;
+  border: 8px solid white !important;
+  display: inline;
+}
+.line {
+    float
+    border-style: inset;
+    border-width: 1px;
+}
+.statsbar{
+  width: 60%    !important;
+  height: auto   !important;
+  border-radius: 4px;
+  border-right:  8px solid white !important;
+  border-left:  8px solid white !important;
+  background: white;
+  display: inline-block;
+}
+
+@font-face {
+    font-family: painter;
+    src: url('../fonts/Painter.ttf');
+}
+@font-face {
+    font-family: charger;
+    src: url('../fonts/Charger.otf');
+}
+}
+@font-face {
+    font-family: scanty;
+    src: url('../fonts/ScantypeBlack_Personal.ttf');
+}
